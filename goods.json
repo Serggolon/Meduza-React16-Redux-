@@ -1,0 +1,86 @@
+//модель товара
+[
+  {
+    "_id": "5c9a198ebfb7f73098d7a7bb",
+    "name": "Название товара",
+    "description": "Описание товара",
+    "categories": 1,
+    //индекс в катигориях
+    "price": {
+      "value": 100,
+      "currency": 0,
+      "wholesale": 99,
+      "quantity": 5
+    },
+    "properties": [
+      {
+        "label": "Высота",
+        "value": "3м"
+      },
+      {
+        "label": "Цвет",
+        "value": "Белая"
+      }
+    ],
+    "photo": {
+      "icon": "5c9a198ebfb7f73098d7a7bd",
+      "fullScreen": [
+        "5c9a198ebfb7f73098d7a7bf",
+        "5c9a198ebfb7f73098d7a7be"
+      ]
+    },
+    "layoutPriority": 100,
+    "created": "2019-03-26 12:22:38.459",
+    "update": "2019-04-26 12:22:38.459"
+  },
+  //модель настроек
+  {
+    "staffContacts": [
+      {
+        "name": "Имя",
+        "position": "Должность",
+        "phoneNumber": "067 123 45 67",
+        "skype": "skype"
+      }
+    ],
+    "organizationContacts": [
+      {
+        "name": "Название",
+        "address": "Адресс",
+        "postIndex": "Почтовый индекс",
+        "phoneNumber": "067 123 45 67",
+        "mapPosition": "base64"
+
+      }
+    ],
+    "workingHours": "Время работы",
+    "postInfo": "Отправка Новой Почтой",
+    "currencies": [
+      {
+        "name": "Гривны",
+        "label": "грн.",
+        "value": 1
+      },
+      {
+        "name": "Доллары",
+        "label": "$",
+        "value": 0.04
+      }
+    ],
+    "categories": [
+      {
+        "id": "1",
+        "name": "Одностенки"
+      },
+      {
+        "id": "1",
+        "name": "Двухстенки"
+      }
+    ]
+  },
+  //модель фото
+  {
+    "_id": "5c9a198ebfb7f73098d7a7bd",
+    "photo": "0989124120948012974012849018410947"
+  }
+]
